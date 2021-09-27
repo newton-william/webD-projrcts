@@ -1,0 +1,263 @@
+* {
+  box-sizing: border-box;
+  list-style: none;
+}
+body {
+  margin: 0px;
+  background-color: whitesmoke;
+}
+header {
+  background-color: white;
+}
+
+nav {
+  background-color: cadetblue;
+  display: flex;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 10px;
+  float: left;
+  font-size: 20px;
+}
+.sign {
+  margin-left: auto;
+}
+nav a:hover {
+  color: black;
+}
+.dropbtn {
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  color: white;
+  background-color: cadetblue;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+  text-color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+section {
+  margin: 150px 10px;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+section h2 span {
+  background-color: cadetblue;
+  padding: 30px 100px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.carousel-cell {
+  padding: 10px 10px;
+}
+.carousel-cell:hover {
+  animation: updown 1s ease 0s alternate both;
+}
+@keyframes updown {
+  0% {
+    bottom: 0px;
+  }
+  100% {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    bottom: 20px;
+  }
+}
+.mm {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.meena {
+  height: auto;
+  width: 100px;
+  display: inline-block;
+  padding-bottom: 10px;
+  flex-wrap: wrap;
+}
+.singha {
+  width: 200px;
+  height: 99%;
+  background-color: cadetblue;
+  margin: solid black 1px;
+}
+.links a {
+  background-color: #d3d3d3;
+  border-radius: 30px;
+  padding: 10px 30px;
+  margin: 5px 7px;
+  text-decoration: none;
+}
+#insta {
+  color: rgb(206, 42, 143);
+}
+#twit {
+  color: deepskyblue;
+}
+#linkdn {
+  color: dodgerblue;
+}
+footer {
+  margin-top: 20px;
+  background-color: cadetblue;
+  padding: 20px;
+  overflow: hidden;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+  padding: 20px 50px;
+  float: left;
+  font-size: 20px;
+}
+footer a:hover {
+  color: black;
+}
+.profile-img {
+  padding-top: 80px;
+  border-radius: 50%;
+}
+.banner {
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+@media screen and (max-width: 500px) {
+  nav {
+    flex-direction: column;
+  }
+  .sign {
+    margin-left: 0;
+  }
+}
+/* about page css */
+.about {
+  text-align: center;
+  background-color: cadetblue;
+  padding: 30px;
+  font-family: cursive;
+  font-weight: bold;
+  border-radius: 10px;
+  position: sticky;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.container-1 {
+  margin-top: 100px;
+  width: 70%;
+  height: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.container-2 {
+  width: 80%;
+  height: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.item {
+  width: 32%;
+  height: 700px;
+  justify-content: space-around;
+  background-color: cadetblue;
+  text-align: center;
+  font-size: bold;
+  color: black;
+}
+#fruit {
+  width: 100%;
+  height: 300px;
+}
+ul li {
+  text-align: left;
+}
+.botton {
+  background-color: lightslategray;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 5mm;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#special {
+  height: 770px;
+}
+
+.meena {
+  margin: 200px 10px;
+  width: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-gap: 10px;
+  align-items: stretch;
+  grid-auto-rows: minmax(100px, auto);
+  grid-auto-columns: minmax(100px, auto);
+}
+#contain {
+  height: auto;
+  grid-column-start: 1;
+  grid-column-start: 1;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  width: 500px;
+  border-radius: 10px;
+}
+#film {
+  background-color: cadetblue;
+  grid-column-start: 7;
+  grid-column-start: 10;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  width: 700px;
+  font-family: cursive;
+  border-radius: 10px;
+  text-align: center;
+}
+h4 {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: monospace;
+}
+#unit {
+  width: 70px;
+  height: 50px;
+}
