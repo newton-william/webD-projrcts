@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Signup</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon`/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="stylesheet" href="/style/login.css">
+</head>
+<body id="login">
+    <div class="parent clearfix">
+        <div class="bg-illustration">
+          <img src="/image/13.png" alt="logo">
+    
+          <div class="burger-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+    
+        </div>
+        
+        <div class="login">
+          <div class="container">
+            <h1>Login to access to<br />your account</h1>
+        
+            <div class="login-form">
+              <form action="">
+                <input type="email" placeholder="E-mail Address">
+                <input type="password" placeholder="Password">
+    
+                <div class="remember-form">
+                  <input type="checkbox">
+                  <span>Remember me</span>
+                </div>
+                <div class="forget-pass">
+                  <a href="#">Forgot Password ?</a>
+                </div>
+    
+                <button type="submit" ><a href="/html/index.html">Sign-IN</a></button>
+                
+    
+              </form>
+            </div>
+        
+          </div>
+          </div>
+      </div>
+      <script>
+        let submitButton=document.querySelector('button');
+        submitButton.addEventListener('click',showMsg);
+        function showMsg()
+        {
+          alert("Successfully login");
+        }
+      </script>
+</body>
+</html>

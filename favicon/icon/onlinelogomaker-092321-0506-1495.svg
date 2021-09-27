@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="194.0271694946289" height="146.792" xml:space="preserve">
+<desc>Created with Fabric.js 1.6.0-rc.1</desc>
+<defs></defs>
+<g style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;" transform="translate(9.999999999999993 9.999999999999993) scale(2.79 2.79)" >
+  <path d="M 37.059 16 H 26 V 4.941 C 26 2.224 23.718 0 21 0 s -5 2.224 -5 4.941 V 16 H 4.941 C 2.224 16 0 18.282 0 21 s 2.224 5 4.941 5 H 16 v 11.059 C 16 39.776 18.282 42 21 42 s 5 -2.224 5 -4.941 V 26 h 11.059 C 39.776 26 42 23.718 42 21 S 39.776 16 37.059 16 z" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: #eb4105; fill-rule: nonzero; opacity: 1;" transform=" matrix(1 0 0 1 0 0) " stroke-linecap="round" />
+</g>
+  <g transform="translate(120.5 111.08) scale(0.98 1)">
+   <text font-family="Masque" font-size="40" font-weight="bold" style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 10; fill: #5de01b; fill-rule: nonzero; opacity: 1;" ><tspan x="-65.32" y="8.98" style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 4; fill: #5de01b; fill-rule: ; opacity: 1;"> </tspan><tspan x="-50.88" y="8.98" style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 4; fill: #5de01b; fill-rule: ; opacity: 1;"> </tspan><tspan x="-36.44" y="8.98" style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 4; fill: #5de01b; fill-rule: ; opacity: 1;">W</tspan><tspan x="5.84" y="8.98" style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 4; fill: #5de01b; fill-rule: ; opacity: 1;">R</tspan><tspan x="36.48" y="8.98" style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-linejoin: miter; stroke-miterlimit: 4; fill: #5de01b; fill-rule: ; opacity: 1;">K</tspan></text>
+ </g>
+</svg>
